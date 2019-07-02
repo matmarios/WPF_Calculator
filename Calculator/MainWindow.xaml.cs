@@ -20,9 +20,17 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        long number1 = 0;
+        long number2 = 0;
+        string operation = "";
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Btn1_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
